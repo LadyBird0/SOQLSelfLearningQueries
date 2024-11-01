@@ -1,0 +1,13 @@
+EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = N'SalesForceBackups'
+GO
+use [master];
+GO
+USE [master]
+GO
+ALTER DATABASE [SalesForceBackups] SET  SINGLE_USER WITH ROLLBACK IMMEDIATE
+GO
+USE [master]
+GO
+/****** Object:  Database [SalesForceBackups]    Script Date: 11/1/2024 3:10:46 PM ******/
+DROP DATABASE [SalesForceBackups]
+GO
