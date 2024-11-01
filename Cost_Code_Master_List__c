@@ -1,0 +1,2 @@
+SELECT ConnectionReceivedId,ConnectionSentId,Cost_Code_Name__c,CreatedById,CreatedDate,End_Date__c,Id,IsDeleted,LastActivityDate,LastModifiedById,LastModifiedDate,
+LastReferencedDate,LastViewedDate,Name,Open_linked_bedspaces_count__c,OwnerId,Start_Date__c,SystemModstamp,Type__c FROM Cost_Code_Master_List__c
