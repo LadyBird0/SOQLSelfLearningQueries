@@ -1,0 +1,3 @@
+SELECT ConnectionReceivedId,ConnectionSentId,CreatedById,CreatedDate,End_Date__c,Formula_Rent_Value__c,Id,IsDeleted,LastModifiedById,
+LastModifiedDate,Name,Notes__c,Rent_Classification__c,SDR__c,Social_or_Non_Social_housing__c,
+Start_Date__c,SystemModstamp,Target_Rent__c,Unit_Bedspace_Association__c,Unit_Master_List__c FROM Rent_Classifications__c LIMIT 20
