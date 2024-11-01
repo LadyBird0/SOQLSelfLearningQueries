@@ -1,0 +1,4 @@
+USE [master]
+RESTORE DATABASE [SalesForceBackups] FROM  DISK = N'E:\ReportsWareHouse\SalesForceBackups_FULL_20230412_210505.bak' WITH  FILE = 1,  MOVE N'SalesForceBackups' TO N'F:\SQL_Logs\SalesForceBackups.mdf',  MOVE N'SalesForceBackups_log' TO N'E:\SQL_Data\SalesForceBackups_log.ldf',  NOUNLOAD,  STATS = 5
+
+GO
